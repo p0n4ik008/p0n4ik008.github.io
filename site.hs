@@ -15,7 +15,7 @@ import System.Process
 
 sitename = "p0n4ik rulez!"
 siteurl = "https://p0n4ik.tk"
-sitedescription = ""
+sitedescription = sitename
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -81,21 +81,9 @@ main = do
            makeItem ""
             >>= loadAndApplyTemplate "templates/sitemap.xml" sitemapCtx
 
-    create ["atom.xml"] $ do
-          route idRoute
-          compile $ do
-                let feedCtx = postCtx `mappend` bodyField "description"
-                posts <- recentFirst =<<
-                      loadAllSnapshots "posts/*" "content"
-                renderAtom myFeedConfiguration feedCtx posts
+    createFeed "rss.xml" renderRss
 
-    create ["rss.xml"] $ do
-          route idRoute
-          compile $ do
-                let feedCtx = postCtx `mappend` bodyField "description"
-                posts <- recentFirst =<<
-                      loadAllSnapshots "posts/*" "content"
-                renderRss myFeedConfiguration feedCtx posts
+    createFeed "atom.xml" renderAtom
 
     create ["robots.txt"] $ do
       route idRoute
@@ -176,11 +164,19 @@ myFeedConfiguration = FeedConfiguration
     , feedRoot        = siteurl
     }
 
+createFeed name renderingFunction = create [name] $ do
+      route idRoute
+      compile $ do
+          let feedCtx = postCtx `mappend` bodyField "description"
+          posts <- recentFirst =<<
+              loadAllSnapshots "posts/*" "content"
+          renderingFunction myFeedConfiguration feedCtx posts
 
 siteCtx :: Context String
 siteCtx = 
   activeClassField `mappend`
-  constField "sitename" "p0n4ik rulez!" `mappend`
+  constField "sitename" sitename `mappend`
+  constField "sitedescription" sitedescription `mappend`
   defaultContext
 -- https://groups.google.com/forum/#!searchin/hakyll/if$20class/hakyll/WGDYRa3Xg-w/nMJZ4KT8OZUJ 
 activeClassField :: Context a 
