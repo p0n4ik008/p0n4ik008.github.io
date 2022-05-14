@@ -13,6 +13,10 @@ import System.Directory
 import System.Process
 --import Debug.Trace (traceShowId)
 
+sitename = "p0n4ik rulez!"
+siteurl = "http://p0n4ik.tk"
+sitedescription = ""
+
 --------------------------------------------------------------------------------
 main :: IO ()
 main = do
@@ -76,6 +80,22 @@ main = do
                     siteCtx
            makeItem ""
             >>= loadAndApplyTemplate "templates/sitemap.xml" sitemapCtx
+
+    create ["atom.xml"] $ do
+          route idRoute
+          compile $ do
+                let feedCtx = postCtx `mappend` bodyField "description"
+                posts <- recentFirst =<<
+                      loadAllSnapshots "posts/*" "content"
+                renderAtom myFeedConfiguration feedCtx posts
+
+    create ["rss.xml"] $ do
+          route idRoute
+          compile $ do
+                let feedCtx = postCtx `mappend` bodyField "description"
+                posts <- recentFirst =<<
+                      loadAllSnapshots "posts/*" "content"
+                renderRss myFeedConfiguration feedCtx posts
 
     create ["robots.txt"] $ do
       route idRoute
@@ -144,8 +164,18 @@ postCtx =
         ("ноября","нбр"), ("декабря","дек")
       ]
     }) "date" "%e %B %Y" `mappend`
-    constField "host" "http://p0n4ik.tk" `mappend`
+    constField "host" siteurl `mappend`
     siteCtx
+
+myFeedConfiguration :: FeedConfiguration
+myFeedConfiguration = FeedConfiguration
+    { feedTitle       = sitename
+    , feedDescription = sitedescription
+    , feedAuthorName  = "p0n4ik"
+    , feedAuthorEmail = "76661235+p0n4ik008@users.noreply.github.com"
+    , feedRoot        = siteurl
+    }
+
 
 siteCtx :: Context String
 siteCtx = 
