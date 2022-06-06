@@ -1,9 +1,9 @@
 _cache
 _site
-default.nix
-dist
+flake.*
+result
+dist*
 site
 site.exe
 site.hi
 site.o
-dist-newstyle
