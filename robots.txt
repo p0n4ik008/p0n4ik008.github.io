@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://p0n4ik.tk/sitemap.xml
