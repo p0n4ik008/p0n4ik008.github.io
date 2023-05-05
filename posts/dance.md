@@ -1,6 +1,6 @@
 ---
 title: мастерски пляшут
-published: 2020-01-05
+published: 05.01.2020
 tags: бабы
 ---
 $video("/content/dance.mp4")$

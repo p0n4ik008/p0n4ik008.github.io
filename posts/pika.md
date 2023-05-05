@@ -1,6 +1,6 @@
 ---
 title: Пикачу
-published: 2022-03-02
+published: 02.03.2022
 tags: бабы
 ---
 

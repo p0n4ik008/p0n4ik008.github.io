@@ -1,6 +1,6 @@
 ---
 title: Женский велик
-published: 2019-10-09
+published: 09.10.2019
 tags: бабы
 ---
 

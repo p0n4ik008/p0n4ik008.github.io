@@ -1,6 +1,6 @@
 ---
 title: белый лебедь
-published: 2022-07-04
+published: 04.07.2022
 tags: бабы
 ---
 

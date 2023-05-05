@@ -1,6 +1,6 @@
 ---
 title: С 23 февраля!
-published: 2021-02-23
+published: 23.02.2021
 tags: бабы
 ---
 

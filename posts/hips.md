@@ -1,6 +1,6 @@
 ---
 title: золотое сечение
-published: 2021-01-10
+published: 10.01.2021
 tags: бабы
 ---
 $gallery("hips")$

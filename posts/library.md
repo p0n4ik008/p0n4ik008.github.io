@@ -1,6 +1,6 @@
 ---
 title: не поэт
-published: 2022-11-25
+published: 25.11.2022
 tags: сэкс
 ---
 

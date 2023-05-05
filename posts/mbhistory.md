@@ -1,6 +1,6 @@
 ---
 title: Mount & Blade - История героя
-published: 2019-05-05
+published: 05.05.2019
 tags: игры
 ---
 

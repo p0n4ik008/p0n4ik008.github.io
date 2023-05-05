@@ -1,6 +1,6 @@
 ---
 title: С пятницей!
-published: 2022-02-04
+published: 04.02.2022
 tags: бабы
 ---
 

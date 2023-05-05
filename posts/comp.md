@@ -1,6 +1,6 @@
 ---
 title: Компы пончика
-published: 2019-12-08
+published: 08.12.2019
 tags: игры
 ---
 

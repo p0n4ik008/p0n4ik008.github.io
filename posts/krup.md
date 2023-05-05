@@ -1,6 +1,6 @@
 ---
 title: Круп лошади
-published: 2019-10-13
+published: 13.10.2019
 tags: бабы
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Выполните это упражнение
-published: 2019-12-21
+published: 21.12.2019
 tags: сэкс
 ---
 $video("/content/sosi.mp4")$

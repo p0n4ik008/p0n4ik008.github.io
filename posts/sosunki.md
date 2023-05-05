@@ -1,6 +1,6 @@
 ---
 title: Сэкс в большом городе
-published: 2019-04-19
+published: 19.04.2019
 tags: сэкс
 ---
 $video("/content/sosunki.mp4")$

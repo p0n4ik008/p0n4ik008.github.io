@@ -1,6 +1,6 @@
 ---
 title: Курага
-published: 2019-02-28
+published: 28.02.2019
 tags: бабы
 ---
 

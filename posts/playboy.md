@@ -1,6 +1,6 @@
 ---
 title: Этому пацану журнал Playboy не нужен
-published: 2019-06-14
+published: 14.06.2019
 tags: бабы
 ---
 

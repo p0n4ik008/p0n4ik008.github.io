@@ -1,6 +1,6 @@
 ---
 title: Смешарики
-published: 2019-10-07
+published: 07.10.2019
 tags: бабы
 ---
 

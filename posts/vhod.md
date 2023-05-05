@@ -1,6 +1,6 @@
 ---
 title: туда тоже можно
-published: 2021-06-12
+published: 12.06.2021
 tags: сэкс
 ---
 

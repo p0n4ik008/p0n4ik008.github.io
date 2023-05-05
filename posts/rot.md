@@ -1,6 +1,6 @@
 ---
 title: Много общего
-published: 2021-03-12
+published: 12.03.2021
 tags: сэкс
 ---
 

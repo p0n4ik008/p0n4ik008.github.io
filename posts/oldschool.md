@@ -1,6 +1,6 @@
 ---
 title: Old school
-published: 2020-11-18
+published: 18.11.2020
 tags: сэкс
 ---
 

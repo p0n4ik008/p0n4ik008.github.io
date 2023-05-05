@@ -1,6 +1,6 @@
 ---
 title: Их трудно удержать
-published: 2019-11-19
+published: 19.11.2019
 tags: бабы
 ---
 $video("/content/large.mp4","742")$

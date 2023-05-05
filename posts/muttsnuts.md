@@ -1,6 +1,6 @@
 ---
 title: Drunking muttsnuts
-published: 2013-06-07
+published: 07.06.2013
 tags: пончики
 ---
 

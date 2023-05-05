@@ -1,6 +1,6 @@
 ---
 title: это из-за волос
-published: 2020-08-25
+published: 25.08.2020
 tags: бабы
 ---
 $video("/content/hair.mp4")$

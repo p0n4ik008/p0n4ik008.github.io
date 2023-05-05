@@ -1,6 +1,6 @@
 ---
 title: вот тебе напарник
-published: 2020-11-10
+published: 10.11.2020
 tags: бабы
 ---
 $video("/content/naparnik.mp4")$

@@ -1,6 +1,6 @@
 ---
 title: восточный танец
-published: 2020-08-30
+published: 30.08.2020
 tags: бабы
 ---
 $video("/content/dance2.mp4")$

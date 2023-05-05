@@ -1,6 +1,6 @@
 ---
 title: Персонажи GTA и девушки
-published: 2016-10-05
+published: 05.10.2016
 tags: бабы
 ---
 

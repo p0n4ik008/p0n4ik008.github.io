@@ -1,6 +1,6 @@
 ---
 title: обезьяна с гранатой
-published: 2021-01-15
+published: 15.01.2021
 tags: оружие
 ---
 $video("/content/monkey.mp4")$

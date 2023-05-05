@@ -1,6 +1,6 @@
 ---
 title: Нико Беллик
-published: 2015-01-24
+published: 24.01.2015
 tags: цитаты
 ---
 
