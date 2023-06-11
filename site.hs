@@ -14,7 +14,7 @@ import System.Process
 --import Debug.Trace (traceShowId)
 
 sitename = "p0n4ik rulez!"
-siteurl = "https://p0n4ik.tk"
+siteurl = "https://p0n4ik008.github.io"
 sitedescription = sitename
 
 --------------------------------------------------------------------------------
