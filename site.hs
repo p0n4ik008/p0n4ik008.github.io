@@ -152,7 +152,6 @@ postCtx =
         ("ноября","нбр"), ("декабря","дек")
       ]
     }) "date" "%e %B %Y" `mappend`
-    constField "host" siteurl `mappend`
     siteCtx
 
 myFeedConfiguration :: FeedConfiguration
@@ -177,6 +176,7 @@ siteCtx =
   activeClassField `mappend`
   constField "sitename" sitename `mappend`
   constField "sitedescription" sitedescription `mappend`
+  constField "host" siteurl `mappend`
   defaultContext
 -- https://groups.google.com/forum/#!searchin/hakyll/if$20class/hakyll/WGDYRa3Xg-w/nMJZ4KT8OZUJ 
 activeClassField :: Context a 
