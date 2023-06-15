@@ -152,7 +152,14 @@ postCtx =
         ("ноября","нбр"), ("декабря","дек")
       ]
     }) "date" "%e %B %Y" `mappend`
+    newPathField "path" `mappend`
     siteCtx
+-- windows workaround
+newPathField = mapContext normalizePath . pathField
+normalizePath :: String -> String
+normalizePath = map f
+    where f '\\' = '/'
+          f x = x
 
 myFeedConfiguration :: FeedConfiguration
 myFeedConfiguration = FeedConfiguration
