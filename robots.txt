@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: http://p0n4ik.tk/sitemap.xml
+Sitemap: https://p0n4ik008.github.io/sitemap.xml
