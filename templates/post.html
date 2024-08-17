@@ -1,8 +1,16 @@
-<div class="info">
-    Posted on $date$
-    $if(author)$
-        by $author$
-    $endif$
-</div>
-
+<p>
+<a href="$url$">$title$</a><br />
+$date$
+$if(author)$
+    настрочил $author$
+$endif$
+</p>
 $body$
+<div class="separator">
+    $if(iftags)$
+      Запощено в $tags$
+    $else$
+      Запощено в без рубрики
+    $endif$
+    <span class="disqus-comment-count" data-disqus-identifier="$path$"></span>
+</div>

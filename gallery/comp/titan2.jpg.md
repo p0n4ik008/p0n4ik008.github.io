@@ -1,0 +1,1 @@
+9700F, Z390 GAMING X, RTX2060 Super, 16 Гб

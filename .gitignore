@@ -1,0 +1,10 @@
+_cache
+_site
+default.nix
+flake.*
+result
+dist*
+site*
+!site.cabal
+!site.hs
+.ghc.environment.*
